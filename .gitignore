@@ -1,0 +1,10 @@
+# Generated Debian live-build working directories and lock file
+/chroot/
+/cache/
+/binary/
+/.build/
+/.lock
+
+# Generated live images and build logs
+/live-image-*
+/build.log
