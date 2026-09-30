@@ -9,7 +9,9 @@ echo "================================"
 sudo lb clean --purge
 
 lb config \
-    --distribution stable \
+    --distribution trixie \
+    --parent-distribution trixie \
+    --parent-debian-installer-distribution trixie \
     --architectures amd64 \
     --archive-areas "main contrib non-free non-free-firmware" \
     --mirror-bootstrap "http://deb.debian.org/debian" \
