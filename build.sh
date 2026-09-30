@@ -19,7 +19,9 @@ lb config \
     --mirror-chroot-security "http://deb.debian.org/debian-security" \
     --mirror-binary "http://deb.debian.org/debian" \
     --mirror-binary-security "http://deb.debian.org/debian-security" \
-    --debian-installer live
+    --debian-installer live \
+    --win32-loader false \
+    --binary-images iso \
 
 echo ""
 echo "Debian Live configuration complete."

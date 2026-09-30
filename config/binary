@@ -1,7 +1,7 @@
 # config/binary - options for live-build(7), binary stage
 
 # Set image type
-LB_IMAGE_TYPE="iso-hybrid"
+LB_IMAGE_TYPE="iso"
 
 # Set image filesystem
 LB_BINARY_FILESYSTEM="fat16"
@@ -92,7 +92,7 @@ LB_MEMTEST="memtest86+"
 LB_LOADLIN="true"
 
 # Set win32-loader
-LB_WIN32_LOADER="true"
+LB_WIN32_LOADER="false"
 
 # Set net tarball
 LB_NET_TARBALL="true"
